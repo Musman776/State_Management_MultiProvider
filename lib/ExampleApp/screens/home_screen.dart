@@ -22,6 +22,9 @@ class _HomeScreen extends State<HomeScreen>{
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
 
+            // use Consumer to observe the changes only in this widget not rebuild entire scaffold
+            // use ExampleProvider Class to get and set the value
+            
             Consumer<ExampleProvider>(builder: (context, val, child) {
               print("Slider build");
               return Slider(value: val.value, onChanged: (value){
@@ -30,6 +33,7 @@ class _HomeScreen extends State<HomeScreen>{
               });
             },),
 
+            // use Consumer to rebuild only [Row] widget for value changing
             Consumer<ExampleProvider>(builder: (context, val, child) {
               print("Row rebuild");
               return Row(
