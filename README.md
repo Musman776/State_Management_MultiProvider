@@ -1,7 +1,7 @@
-# State Management using MultiProvider
+# State Management using Provider
 
-using provider observe the changes by cunsumer in multipule widgets without rebuild the entire scaffold
-
+This project contains two different directories with different working to observe the changes using provider by cunsumer with desired widget.
+The purpose of this example is understanding of basic knowladge of Provider.
 
 ## Getting Started
 
