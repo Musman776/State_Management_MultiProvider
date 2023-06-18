@@ -1,6 +1,7 @@
-# favoriteapp1_state_management
+# State Management using MultiProvider
 
-A new Flutter project.
+using provider observe the changes by cunsumer in multipule widgets without rebuild the entire scaffold
+
 
 ## Getting Started
 
